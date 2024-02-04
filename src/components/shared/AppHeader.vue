@@ -21,23 +21,19 @@ export default {
 				{
 					id: 1,
 					value: 'web',
-					name: 'Web Application',
+					name: 'Application Web',
 				},
 				{
 					id: 2,
-					value: 'mobile',
-					name: 'Mobile Application',
+					value: 'java',
+					name: 'Application Java',
 				},
 				{
 					id: 3,
 					value: 'ui-ux',
-					name: 'UI/UX Design',
+					name: 'Site Web',
 				},
-				{
-					id: 4,
-					value: 'branding',
-					name: 'Branding & Anim',
-				},
+				
 			],
 		};
 	},
@@ -87,14 +83,14 @@ export default {
 					<router-link to="/"
 						><img
 							v-if="theme === 'light'"
-							src="@/assets/images/logo-dark.svg"
-							class="w-36"
+							src="@/assets/images/logo_thompson.png"
+							class="w-50"
 							alt="Dark Logo"
 						/>
 						<img
 							v-else
-							src="@/assets/images/logo-light.svg"
-							class="w-36"
+							src="@/assets/images/logo_thompson.png"
+							class="w-50"
 							alt="Light Logo"
 						/>
 					</router-link>
@@ -146,7 +142,7 @@ export default {
 				<!-- Hire me button -->
 				<div class="hidden md:block">
 					<Button
-						title="Hire Me"
+						title="M'embaucher"
 						class="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 						@click="showModal()"
 						aria-label="Hire Me Button"

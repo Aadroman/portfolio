@@ -13,17 +13,22 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'Your Address, Your City, Your Country',
-					icon: 'map-pin',
+					name: 'https://www.linkedin.com/in/thompsonvictor',
+					icon: 'linkedin',
 				},
 				{
 					id: 2,
-					name: 'email@domain.com',
-					icon: 'mail',
+					name: 'https://github.com/VictorThompsonKeyl',
+					icon: 'github',
 				},
 				{
 					id: 3,
-					name: '555 8888 888',
+					name: 'victor.thompson@etu.univ-tlse2.fr',
+					icon: 'mail',
+				},
+				{
+					id: 4,
+					name: '+33 7 80 42 91 18',
 					icon: 'phone',
 				},
 			],

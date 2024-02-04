@@ -7,7 +7,7 @@ const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Stoman - Home',
+			title: 'Accueil',
 		},
 	},
 	{
@@ -19,7 +19,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "about" */ '../views/About.vue'),
 		meta: {
-			title: 'Stoman - About',
+			title: 'A propos de moi',
 		},
 	},
 	{
@@ -31,7 +31,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Projects.vue'),
 		meta: {
-			title: 'Stoman - Projects',
+			title: 'Mes projets',
 		},
 	},
 	{
@@ -49,6 +49,15 @@ const routes = [
 		},
 	},
 	{
+		path: '/projects/single-project/:id',
+		name: 'SingleProject',
+		component: () =>
+			import(
+				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
+			),
+		props: true,
+	},
+	{
 		path: '/contact',
 		name: 'Contact',
 		// route level code-splitting
@@ -57,7 +66,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
 		meta: {
-			title: 'Stoman - Contact',
+			title: 'Contact',
 		},
 	},
 ];

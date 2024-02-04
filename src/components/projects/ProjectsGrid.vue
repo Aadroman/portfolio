@@ -9,7 +9,7 @@ export default {
 	data: () => {
 		return {
 			projects,
-			projectsHeading: 'Projects Portfolio',
+			projectsHeading: 'Projets Portfolio',
 			selectedCategory: '',
 			searchProject: '',
 		};
@@ -72,7 +72,7 @@ export default {
 					mb-4
 				"
 			>
-				Search projects by title or filter by category
+				Recherchez des projets par titre ou par catégorie
 			</h3>
 			<div
 				class="
@@ -123,7 +123,7 @@ export default {
 						name="name"
 						type="search"
 						required=""
-						placeholder="Search Projects"
+						placeholder="Rechercher un projet"
 						aria-label="Name"
 					/>
 				</div>
@@ -136,7 +136,7 @@ export default {
 			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10"
 		>
 			<ProjectSingle
-				v-for="project in filteredProjects"
+			v-for="(project) in filteredProjects.slice(0, 6)"
 				:key="project.id"
 				:project="project"
 			/>

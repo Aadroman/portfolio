@@ -9,10 +9,9 @@ export default {
 		selectOptions: {
 			type: Array,
 			default: () => [
-				'Web Application',
-				'Mobile Application',
-				'UI/UX Design',
-				'Branding & Anim',
+				'Application Web',
+				'Application Java',
+				'Site Web',
 			],
 		},
 	},
@@ -25,7 +24,7 @@ export default {
 		:name="select"
 		:id="select"
 		class="font-general-medium
-				px-4
+				px-7
 				py-2
 				border-1 border-gray-200
 				dark:border-secondary-dark
@@ -38,7 +37,7 @@ export default {
 				dark:text-ternary-light
 			"
 	>
-		<option value class="text-sm sm:text-md">All Projects</option>
+		<option value class="text-sm sm:text-md">Tous les projets</option>
 		<option
 			v-for="option in selectOptions"
 			:key="option"

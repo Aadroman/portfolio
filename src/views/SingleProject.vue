@@ -3,7 +3,8 @@ import feather from 'feather-icons';
 import ProjectHeader from '../components/projects/ProjectHeader.vue';
 import ProjectGallery from '../components/projects/ProjectGallery.vue';
 import ProjectInfo from '../components/projects/ProjectInfo.vue';
-import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
+//import ProjectRelatedProjects from '../components/projects/ProjectRelatedProjects.vue';
+import projectsData from '../data/projects.js';
 
 export default {
 	name: 'Projects',
@@ -11,163 +12,82 @@ export default {
 		ProjectHeader,
 		ProjectGallery,
 		ProjectInfo,
-		ProjectRelatedProjects,
+		//ProjectRelatedProjects,
 	},
-	data: () => {
-		return {
+	data() {
+
+		const projectId = this.$route.params.id;
+		const project = projectsData.find((project) => project.id === parseInt(projectId));
+
+		if (project) {
+			return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Project Management UI',
-				singleProjectDate: 'Jul 26, 2021',
-				singleProjectTag: 'UI / Frontend',
+				singleProjectTitle: project.title,
+				singleProjectDate: project.date,	
+				singleProjectTag: project.tag,
 			},
-			projectImages: [
-				{
-					id: 1,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/ui-project-1.jpg'),
-				},
-				{
-					id: 2,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/web-project-2.jpg'),
-				},
-				{
-					id: 3,
-					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/mobile-project-2.jpg'),
-				},
-			],
+			projectImages: project.images.map((image) => ({
+				id: image.id,
+				title: image.title,
+				img: image.img,
+			})),
 			projectInfo: {
-				clientHeading: 'About Client',
+				clientHeading: 'A propos du client',
 				companyInfos: [
 					{
 						id: 1,
-						title: 'Name',
-						details: 'Company Ltd',
+						title: 'Nom',
+						details: project.client.name,
 					},
 					{
 						id: 2,
 						title: 'Services',
-						details: 'UI Design & Frontend Development',
+						details: project.client.services,
 					},
 					{
 						id: 3,
-						title: 'Website',
-						details: 'https://company.com',
+						title: 'Site web',
+						details: project.client.website,
 					},
 					{
 						id: 4,
-						title: 'Phone',
-						details: '555 8888 888',
+						title: 'Tel',
+						details: project.client.phone,
 					},
 				],
-				objectivesHeading: 'Objective',
-				objectivesDetails:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+				objectivesHeading: 'Objectif',
+				objectivesDetails: project.objectives,
 				technologies: [
 					{
-						title: 'Tools & Technologies',
-						techs: [
-							'HTML',
-							'CSS',
-							'JavaScript',
-							'Vue.js',
-							'TailwindCSS',
-							'AdobeXD',
-						],
+						title: 'Outils & Technologies',
+						techs: project.technologies,
 					},
 				],
-				projectDetailsHeading: 'Challenge',
-				projectDetails: [
-					{
-						id: 1,
-						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-					},
-					{
-						id: 2,
-						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-					},
-					{
-						id: 3,
-						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-					},
-					{
-						id: 4,
-						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-					},
-				],
-				socialSharingsHeading: 'Share This',
-				socialSharings: [
-					{
-						id: 1,
-						name: 'Twitter',
-						icon: 'twitter',
-						url: 'https://twitter.com/realstoman',
-					},
-					{
-						id: 2,
-						name: 'Instagram',
-						icon: 'instagram',
-						url: 'https://instagram.com/realstoman',
-					},
-					{
-						id: 3,
-						name: 'Facebook',
-						icon: 'facebook',
-						url: 'https://facebook.com/',
-					},
-					{
-						id: 4,
-						name: 'LinkedIn',
-						icon: 'linkedin',
-						url: 'https://linkedin.com/',
-					},
-					{
-						id: 5,
-						name: 'Youtube',
-						icon: 'youtube',
-						url: 'https://www.youtube.com/c/StomanStudio',
-					},
-				],
-			},
-			relatedProject: {
-				relatedProjectsHeading: 'Related Projects',
-				relatedProjects: [
-					{
-						id: 1,
-						title: 'Mobile UI',
-						img: require('@/assets/images/mobile-project-1.jpg'),
-					},
-					{
-						id: 2,
-						title: 'Web Application',
-						img: require('@/assets/images/web-project-1.jpg'),
-					},
-					{
-						id: 3,
-						title: 'UI Design',
-						img: require('@/assets/images/ui-project-2.jpg'),
-					},
-					{
-						id: 4,
-						title: 'Kabul Mobile App UI',
-						img: require('@/assets/images/mobile-project-2.jpg'),
-					},
-				],
+				projectDetailsHeading: 'Présentation du projet',
+				projectDetails: project.challenge.map((detail, index) => ({
+					id: index + 1,
+					details: detail,
+				})),
+				socialSharingsHeading: 'Plus de détails',
+				socialSharings: project.socialSharings.map((social) => ({
+					id: social.id,
+					name: social.name,
+					icon: social.icon,
+					url: social.url,
+				})),
 			},
 		};
+
+	}
+		
 	},
 	mounted() {
 		feather.replace();
+		// Récupérer l'ID du projet depuis les paramètres de l'URL
 	},
 	updated() {
 		feather.replace();
 	},
-	methods: {},
 };
 </script>
 

@@ -17,6 +17,21 @@ export default {
 	<div class="block sm:flex gap-0 sm:gap-10 mt-14">
 		<!-- Single project left section details -->
 		<div class="w-full sm:w-1/3 text-left">
+
+			<!-- Single project objectives -->
+			<div class="mb-7">
+				<p
+					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
+				>
+					{{ projectInfo.objectivesHeading }}
+				</p>
+				<p
+					class="font-general-regular text-primary-dark dark:text-ternary-light"
+				>
+					{{ projectInfo.objectivesDetails }}
+				</p>
+			</div>
+
 			<!-- Single project client details -->
 			<div class="mb-7">
 				<p
@@ -34,7 +49,7 @@ export default {
 						<a
 							href="#"
 							:class="
-								info.title == 'Website' || info.title == 'Phone'
+								info.title == 'Site web' || info.title == 'Tel'
 									? 'hover:underline cursor-pointer'
 									: ''
 							"
@@ -43,20 +58,6 @@ export default {
 						>
 					</li>
 				</ul>
-			</div>
-
-			<!-- Single project objectives -->
-			<div class="mb-7">
-				<p
-					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
-				>
-					{{ projectInfo.objectivesHeading }}
-				</p>
-				<p
-					class="font-general-regular text-primary-dark dark:text-ternary-light"
-				>
-					{{ projectInfo.objectivesDetails }}
-				</p>
 			</div>
 
 			<!-- Single project technologies -->

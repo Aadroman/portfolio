@@ -10,7 +10,7 @@ export default {
 			<h2
 				class="font-general-medium text-2xl text-primary-dark dark:text-primary-light mt-12 mb-8"
 			>
-				Contact details
+				Mes coordonnées
 			</h2>
 			<ul class="font-general-regular">
 				<li class="flex" v-for="contact in contacts" :key="contact.id">
@@ -19,14 +19,43 @@ export default {
 						class="w-5 text-gray-500 dark:text-gray-400 mr-4"
 					></i>
 					<a
+						v-if="contact.icon === 'mail'"
+						:href="'mailto:' + contact.name"
+						class="text-lg mb-4 text-ternary-dark dark:text-ternary-light hover:underline cursor-pointer"
+						aria-label="Email"
+					>
+						{{ contact.name }}
+					</a>
+					<a
+						v-else-if="contact.icon === 'phone'"
+						:href="'tel:' + contact.name"
+						class="text-lg mb-4 text-ternary-dark dark:text-ternary-light hover:underline cursor-pointer"
+						aria-label="Phone"
+					>
+						{{ contact.name }}
+					</a>
+					<a
+						v-else-if="contact.icon === 'linkedin'"
+						:href="contact.name"
+						class="text-lg mb-4 text-ternary-dark dark:text-ternary-light hover:underline cursor-pointer"
+						aria-label="LinkedIn"
+						target="_blank"
+					>
+						thompsonvictor
+					</a>
+					<a
+						v-else-if="contact.icon === 'github'"
+						:href="contact.name"
+						class="text-lg mb-4 text-ternary-dark dark:text-ternary-light hover:underline cursor-pointer"
+						aria-label="Github"
+						target="_blank"
+					>
+						VictorThompsonKeyl
+					</a>
+					<a
+						v-else
 						href="#"
 						class="text-lg mb-4 text-ternary-dark dark:text-ternary-light"
-						:class="
-							contact.icon === 'mail' || contact.icon === 'phone'
-								? 'hover:underline cursor-pointer'
-								: ''
-						"
-						aria-label="Website and Phone"
 					>
 						{{ contact.name }}
 					</a>
