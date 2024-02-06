@@ -9,6 +9,7 @@ export default {
 		return {
 			experienceTitle: 'Années d\'expériences',
 			projectsTitle: 'Projets completés',
+			
 			// Ajoutez des données pour les compétences front-end et back-end
 			frontEndSkills: {
 				labels: ['Angular', 'TypeScript', 'HTML', 'CSS', 'JavaScript'],
@@ -46,11 +47,13 @@ methods: {
 				indexAxis: 'y',
 				scales: {
 					x: {
+						stacked: true, 
 						grid: {
 							display: false, // Ne pas afficher la grille sur l'axe des x
 						},
 					},
 					y: {
+						stacked: true, 
 						grid: {
 							display: false, // Ne pas afficher la grille sur l'axe des y
 						},
@@ -65,7 +68,7 @@ methods: {
 				responsive: true,
 				plugins: {
 					legend: {
-						position: 'right',
+						position: 'top',
 						display : false,
 					},
 					title: {

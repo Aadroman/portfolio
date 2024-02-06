@@ -2,6 +2,7 @@
 import AboutMe from '@/components/about/AboutMe';
 import AboutCounter from '@/components/about/AboutCounter';
 import AboutClients from '@/components/about/AboutClients';
+import AboutSkills from '@/components/about/AboutSkills';
 import feather from 'feather-icons';
 
 export default {
@@ -10,6 +11,7 @@ export default {
 		AboutMe,
 		AboutCounter,
 		AboutClients,
+		AboutSkills
 	},
 	data: () => {
 		return {};
@@ -37,6 +39,11 @@ export default {
 		<!-- About counter -->
 		<div class="container mx-auto">
 			<AboutClients />
+		</div>
+
+		<!-- About skils -->
+		<div class="container mx-auto">
+			<AboutSkills />
 		</div>
 	</div>
 </template>
