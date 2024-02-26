@@ -13,11 +13,11 @@ export default {
 			// Ajoutez des données pour les compétences front-end et back-end
 			frontEndSkills: {
 				labels: ['Angular', 'TypeScript', 'HTML', 'CSS', 'JavaScript'],
-				data: [90, 80, 85, 80, 65], // Notez que ce sont des exemples, utilisez vos propres valeurs
+				data: [80, 80, 70, 70, 70], // Notez que ce sont des exemples, utilisez vos propres valeurs
 			},
 			backEndSkills: {
 				labels: ['PHP', 'Symfony', 'Java', 'SQL', 'Python'],
-				data: [70, 80, 75, 60, 70], // Notez que ce sont des exemples, utilisez vos propres valeurs
+				data: [80, 85, 90, 80, 70], // Notez que ce sont des exemples, utilisez vos propres valeurs
 			},
 		};
 	},

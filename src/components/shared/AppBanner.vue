@@ -31,17 +31,17 @@ export default {
 			<h1
 				class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 			>
-				Bonjour, je suis Victor Thompson.
+				Bonjour, je suis Rubén Longèque.
 			</h1>
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-				Un developper Full-Stack enthousiaste
+				Un developper Full-Stack dynamique
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
-					download="CV_VictorThompson.pdf"
-					href="/files/CV_VictorThompson.pdf"
+					download="LongequeRuben.pdf"
+					href="/files/LongequeRuben.pdf"
 					class="flex justify-center items-center w-60 sm:w-60 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
 				>

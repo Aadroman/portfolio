@@ -13,22 +13,22 @@ export default {
 			contacts: [
 				{
 					id: 1,
-					name: 'https://www.linkedin.com/in/thompsonvictor',
+					name: 'https://www.linkedin.com/in/rubén-longèque-197639252/',
 					icon: 'linkedin',
 				},
 				{
 					id: 2,
-					name: 'https://github.com/VictorThompsonKeyl',
+					name: 'https://github.com/Aadroman',
 					icon: 'github',
 				},
 				{
 					id: 3,
-					name: 'victor.thompson@etu.univ-tlse2.fr',
+					name: 'rubenlongeque@gmail.com',
 					icon: 'mail',
 				},
 				{
 					id: 4,
-					name: '+33 7 80 42 91 18',
+					name: '+33 7 82 65 55 01',
 					icon: 'phone',
 				},
 			],

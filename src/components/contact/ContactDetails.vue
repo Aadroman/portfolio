@@ -41,7 +41,7 @@ export default {
 						aria-label="LinkedIn"
 						target="_blank"
 					>
-						thompsonvictor
+						Rubén Longèque
 					</a>
 					<a
 						v-else-if="contact.icon === 'github'"
@@ -50,7 +50,7 @@ export default {
 						aria-label="Github"
 						target="_blank"
 					>
-						VictorThompsonKeyl
+						rlongeque
 					</a>
 					<a
 						v-else

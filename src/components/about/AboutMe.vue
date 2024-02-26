@@ -39,7 +39,7 @@ export default {
 		<!-- About profile image -->
 		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
 			<img
-				src="@/assets/images/profile.jpg"
+				src="@/assets/images/pp_linkedin.jpg"
 				class="rounded-xl w-96"
 				alt=""
 			/>
