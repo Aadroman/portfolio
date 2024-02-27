@@ -1,9 +1,9 @@
 <script>
-import AboutClientSingle from './AboutClientSingle.vue';
+import ComeptencesLanguageSingle from './CompetencesLanguageSingle.vue';
 
 export default {
 	components: {
-		AboutClientSingle,
+		ComeptencesLanguageSingle,
 	},
 	data: () => {
 		return {
@@ -73,7 +73,7 @@ export default {
 			{{ clientsHeading }}
 		</p>
 		<div class="grid grid-cols-2 sm:grid-cols-5 mt-10 sm:mt-14 gap-2 place-items-center justify-items-center">
-			<AboutClientSingle
+			<ComeptencesLanguageSingle
 				v-for="client in clients"
 				:key="client.id"
 				:client="client"

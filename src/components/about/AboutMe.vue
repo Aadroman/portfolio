@@ -6,23 +6,23 @@ export default {
 				{
 					id: 1,
 					bio: `
-					Je suis actuellement en 3ème année en Informatique à l'IUT de Blagnac. J'ai choisi la spécialité "Développement d'applications". En ce moment, je travaille en alternance dans une agence web à Lille, où j'ai participé à des projets avec Symfony notamment, afin de automatiser et simplifier le processus d'achat et de création de site web pour les clients. 
+					Je suis actuellement en 3ème année en Informatique à l'IUT de Blagnac. J'ai choisi la spécialité "Développement d'applications". Je suis actuellement sur la fin de ma formation initiale, et je souhaite par la suite m'intégrer dans le monde de l'entreprise. 
 					`,
 				},
 				{
 					id: 2,
 					bio: `
-					Dans le cadre de mes études, l'un de mes projets a été la création d'une application pour gérer les vacataires de notre établissement.
+					Dans le cadre de mes études, j’ai pu développer des compétences concernant le développement d’application, le développement web fullstack, l’IoT, la gestion et administration de base de donnée, le management, la communication.
 
-					J'ai acquis des compétences techniques tout en respectant les délais et les consignes. Mon expérience professionnelle m'a appris à être proactif et à maîtriser l'anglais.
+					J'ai acquis des compétences techniques tout en respectant les délais et les consignes.
 					`,
 				},
 				{
 					id: 3,
 					bio: `
-					Lors de ma 2ème année à l'IUT de Blagnac, j'ai contribué à différents projets, comme la création d'une base de données, d'un site web, et d'une interface utilisateur. Ces expériences m'ont permis de développer des compétences techniques et de travailler efficacement en équipe.
+					J'ai contribué à différents projets, durant mes études, comme la création d'une interface graphique pour afficher des données de bases de données polystore, ainsi que la création d'un site d'e-commerce, et d'une application web pour une bibliothèque, m'occupant de la partie Back-end, Back-office principalement. Ces expériences m'ont permis de développer des compétences techniques et de travailler efficacement en équipe.
 
-					En dehors de mes études, j'ai effectué un stage de photographie de deux semaines, ce qui m'a aidé à résoudre des problèmes et à renforcer mes compétences en travail d'équipe.
+					De plus j'ai pu réaliser un stage à l'étranger, durant ma deuxième année, en Ecosse, ce qui m'a permis d'améliorer ma capacité à être proactif, ainsi que ma maîtrise de l'anglais  .
 					`,
 				},
 			],
