@@ -113,7 +113,7 @@ export default {
 				{{ projectDetail.details }}
 			</p>
 
-			<div class="flex justify-center sm:block">
+			<!-- <div class="flex justify-center sm:block">
 				<a
 					download="Ruben_Longeque_rapport_de_stage_RGU.pdf"
 					href="/files/Ruben_Longeque_rapport_de_stage_RGU.pdf"
@@ -129,7 +129,7 @@ export default {
 						>Rapport de stage</span
 					></a
 				>
-			</div>
+			</div> -->
 
 		</div>
 

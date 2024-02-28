@@ -4,9 +4,9 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Application bancaire',
-		category: 'Application Java',
-		img: require('@/assets/images/ui-project-1.jpg'),
+		title: 'Application Web IHM pour le DATAZERO2',
+		category: 'Application Web',
+		img: require('@/assets/images/web-project-2.jpg'),
 		date: 'été 2022',
 		tag: 'JavaFX / IHM',
 		client: {
@@ -32,7 +32,7 @@ const projects = [
 				id: 1,
 				name: 'Github',
 				icon: 'github',
-				url: 'https://github.com/Mazlai/SAE2.01-2.05',
+				url: 'https://github.com/Aadroman/sae_2.01-2.05_RubenLongeque',
 			},
 			// ... autres réseaux sociaux
 		],
@@ -56,11 +56,11 @@ const projects = [
 	},
 	{
 		id: 2,
-		title: 'Application web de gestion de vacataires',
-		category: 'Application Web',
-		img: require('@/assets/images/web-project-2.jpg'),
+		title: 'Application Java d\'affichage d\'arbre algébrique',
+		category: 'Application Java',
+		img: require('@/assets/images/ui-project-2.jpg'),
 		date: 'Automne 2023',
-		tag: 'App de gestion Web / Angular',
+		tag: 'Application Java',
 		client: {
 			name: 'IUT de Blagnac',
 			services: 'Developpement d\'applications',
@@ -83,7 +83,7 @@ const projects = [
 				id: 1,
 				name: 'Github',
 				icon: 'github',
-				url: 'https://github.com/SAE-IUT/sae5.01-gestion_vacataires/',
+				url: 'https://github.com/Aadroman/SAE-S5-IRIT-G2',
 			},
 			// ... autres réseaux sociaux
 		],
@@ -214,9 +214,9 @@ const projects = [
 	},
 	{
 		id: 5,
-		title: 'Refactoring d\'une application existante',
-		category: 'Application Java',
-		img: require('@/assets/images/mobile-project-1.jpg'),
+		title: 'Site web Portfolio',
+		category: 'Site Web',
+		img: require('@/assets/images/web-project-1.jpg'),
 		date: 'été 2022',
 		tag: 'JavaFX / IHM',
 		client: {
@@ -225,23 +225,24 @@ const projects = [
 			website: 'https://www.iut-blagnac.fr/fr/',
 			phone: '05 62 74 75 75',
 		},
-		objectives: 'Amélioration d\'une application de gestion de tournoi de Belote en Java avec Swing. Refactoring du code existant en intégrant des patrons de conception, en appliquant les principes SOLID et en mettant en place des bonnes pratiques de conception orientée objet.',
+		objectives: 'Réalisation d\'une application bancaire en JAVA sur Eclipse avec Java FX et SceneBuilder, permettant de gérer les comptes bancaires de clients. Gestion de ce projet sur GitHub et rédaction des documentations.',
 		technologies: [
-			'Java',
-			'Swing',
-			// Ajoutez d'autres technologies au besoin
+			'JAVA',
+			'JavaFX',
+			'SceneBuilder',
+			'Github',
 		],
 		challenge: [
-			'Le projet initial, nommé "belote2019", a été développé par un ancien étudiant de l’IUT de Blagnac. Il utilise Java avec Swing pour créer une application de gestion de tournoi de Belote.',
-			'L\'objectif du refactoring est d\'intégrer des patrons de conception, d\'appliquer les principes SOLID et de mettre en place des bonnes pratiques de conception orientée objet. Cela comprend l\'analyse détaillée des fonctionnalités existantes, l\'amélioration de l\'organisation et de la visibilité du code, ainsi que l\'ajout éventuel de nouvelles fonctionnalités facilitées par le refactoring.',
-			'Le travail doit être réalisé sur GitHub, avec des commits bien documentés et une utilisation éventuelle des issues GitHub pour organiser les idées de refactoring. Le rapport final doit être inclus dans le README, expliquant chaque modification avec des extraits de code illustratifs et justifiant chaque choix de refactoring.'
+			'Cette application a été réalisée lors de notre première année de BUT informatique, nous avions pour but de réaliser une application nommée "DAILY BANK", celle-ci nous permettra de simuler des actions que l’on peut retrouver dans une banque du monde réel.',
+			'La banque DailyBank souhaite développer une application JAVA-Oracle de gestion des comptes clients pour remplacer plusieurs outils obsolètes. Ce développement s’inscrit dans le cadre de la restructuration de ses services bancaires et l’application sera déployée dans les 100 agences que compte son réseau. Nous travaillerons à partir d’une application existante « Daily Bank » qu’il faudra adapter aux nouveaux besoins de la banque.',
+			'L’application doit permettre de gérer des comptes bancaires de dépôt pour des clients préalablement créés. Elle devra permettre de débiter, créditer un compte soit par virement c’est à dire un échange d’argent entre deux comptes distincts mais domiciliés dans le réseau bancaire, soit par une personne physique se présentant devant un guichet.',
 		],
 		socialSharings: [
 			{
 				id: 1,
 				name: 'Github',
 				icon: 'github',
-				url: 'https://github.com/IUT-Blagnac/sae4-01-2023-gt',
+				url: 'https://github.com/Mazlai/SAE2.01-2.05',
 			},
 			// ... autres réseaux sociaux
 		],
@@ -267,7 +268,7 @@ const projects = [
 		id: 6,
 		title: 'Application web de gestion d\'une bibliothèque',
 		category: 'Application Web',
-		img: require('@/assets/images/web-project-1.jpg'),
+		img: require('@/assets/images/web-project-2.jpg'),
 		date: 'Février 2024',
 		tag: 'Application de gestion Web / API / Angular Symfony',
 		client: {
@@ -325,9 +326,60 @@ const projects = [
 	},
 	{
 		id: 7,
-		title: 'Site web Portfolio',
-		category: 'Site Web',
-		img: require('@/assets/images/web-project-2.jpg'),
+		title: 'Refactoring d\'une application existante',
+		category: 'Application Java',
+		img: require('@/assets/images/ui-project-1.jpg'),
+		date: 'été 2022',
+		tag: 'JavaFX / IHM',
+		client: {
+			name: 'IUT de Blagnac',
+			services: 'Developpement d\'applications',
+			website: 'https://www.iut-blagnac.fr/fr/',
+			phone: '05 62 74 75 75',
+		},
+		objectives: 'Amélioration d\'une application de gestion de tournoi de Belote en Java avec Swing. Refactoring du code existant en intégrant des patrons de conception, en appliquant les principes SOLID et en mettant en place des bonnes pratiques de conception orientée objet.',
+		technologies: [
+			'Java',
+			'Swing',
+			// Ajoutez d'autres technologies au besoin
+		],
+		challenge: [
+			'Le projet initial, nommé "belote2019", a été développé par un ancien étudiant de l’IUT de Blagnac. Il utilise Java avec Swing pour créer une application de gestion de tournoi de Belote.',
+			'L\'objectif du refactoring est d\'intégrer des patrons de conception, d\'appliquer les principes SOLID et de mettre en place des bonnes pratiques de conception orientée objet. Cela comprend l\'analyse détaillée des fonctionnalités existantes, l\'amélioration de l\'organisation et de la visibilité du code, ainsi que l\'ajout éventuel de nouvelles fonctionnalités facilitées par le refactoring.',
+			'Le travail doit être réalisé sur GitHub, avec des commits bien documentés et une utilisation éventuelle des issues GitHub pour organiser les idées de refactoring. Le rapport final doit être inclus dans le README, expliquant chaque modification avec des extraits de code illustratifs et justifiant chaque choix de refactoring.'
+		],
+		socialSharings: [
+			{
+				id: 1,
+				name: 'Github',
+				icon: 'github',
+				url: 'https://github.com/IUT-Blagnac/sae4-01-2023-lateam21',
+			},
+			// ... autres réseaux sociaux
+		],
+		images: [
+			{
+				id: 1,
+				title: 'Kabul Project Management UI',
+				img: require('@/assets/images/ui-project-1.jpg'),
+			},
+			{
+				id: 2,
+				title: 'Kabul Project Management UI',
+				img: require('@/assets/images/web-project-2.jpg'),
+			},
+			{
+				id: 3,
+				title: 'Kabul Project Management UI',
+				img: require('@/assets/images/mobile-project-2.jpg'),
+			},
+		],
+	},
+	{
+		id: 8,
+		title: 'Application bancaire',
+		category: 'Application Java',
+		img: require('@/assets/images/ui-project-1.jpg'),
 		date: 'été 2022',
 		tag: 'JavaFX / IHM',
 		client: {
@@ -353,7 +405,7 @@ const projects = [
 				id: 1,
 				name: 'Github',
 				icon: 'github',
-				url: 'https://github.com/Mazlai/SAE2.01-2.05',
+				url: 'https://github.com/Aadroman/sae_2.01-2.05_RubenLongeque',
 			},
 			// ... autres réseaux sociaux
 		],
