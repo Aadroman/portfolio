@@ -11,6 +11,7 @@ export default {
 			default: () => [
 				'Application Web',
 				'Application Java',
+				'Application Mobile',
 				'Site Web',
 			],
 		},

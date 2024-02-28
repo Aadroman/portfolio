@@ -111,31 +111,32 @@ const projects = [
 		category: 'Site Web',
 		img: require('@/assets/images/mobile-project-2.jpg'),
 		date: 'hiver 2022-2023',
-		tag: 'Website / IHM / PHP / e-commerce',
+		tag: 'Website / IHM / PHP / E-commerce',
 		client: {
-			name: 'Cheribou (Fictif) - IUT de Blagnac',
+			name: 'Royal Bio (Fictif) - IUT de Blagnac',
 			services: 'Developpement d\'applications',
 			website: 'https://www.iut-blagnac.fr/fr/',
 			phone: '05 62 74 75 75',
 		},
-		objectives: "Développement d'un site web de vente de bonbons en PHP, HTML, et CSS, intégré à une base de données SQL. Création d'une application JAVAFX pour visualiser et configurer les données des capteurs, avec accès au fichier de configuration YML. Gestion du projet sur GitHub avec documentation associée.",
+		objectives: "Développement d'un site web de vente de fruits, de légumes et de produits BIO en PHP, HTML, et CSS, intégré à une base de données SQL. Création d'une application JAVAFX pour visualiser et configurer les données des capteurs, avec accès au fichier de configuration YML. Gestion du projet sur GitHub avec documentation associée.",
 		technologies: [
 			'JAVA',
 			'JavaFX',
 			'PHP',
 			'HTML/CSS',
+			'SQL',
 		],
 		challenge: [
-			"Ce site web d’E-commerce a été réalisée lors de notre deuxième année de BUT informatique, nous avions pour but de réaliser un site web permettant de vendre les produits de notre client 'Cheribou' celui-ci nous permettra de simuler des actions que l’on peut retrouver dans une boutique de vente en ligne.",
-			"Le site web doit permettre la vente des bonbons et autres produits proposés par notre client de dépôt. Les produits ainsi que les données personnelles des clients sont stockées dans une base de données. Le client devra pouvoir se connecter/créer un compte, visiter le catalogue des produits, ajouter un produit au panier et de valider son panier pour accèder au paiement.",
-			"L’entreprise Cheribou souhaitant re-conceptualiser son site internet pour que celui-ci soit le plus attractif possible afin d’augmenter le nombre de clients inscrits et d’améliorer le nombre de ventes en ligne. De plus, Cheribou a la volonté et les ressources pour se développer à l’international afin degagner en notoriété et en visibilité. Cheribou cherche à s’introduire et à s’exporter sur les marchés Allemand et Américain. Mais le site internet actuel est désuet et n’est pas adapté à pour une future expansion internationale. Une version anglaise du site devra donc être créée afin de s’adapter au nouveau type de clients. Le nouveau site web devra être adapté pour des enfants, adolescents et jeunes adultes, être simple à parcourir et être sécurisé pour permettre une bonne utilisation du site web et une fidélisation de la clientèle.",
+			"Ce site web d’E-commerce a été réalisée lors de notre deuxième année de BUT informatique, nous avions pour but de réaliser un site web permettant de vendre les produits de notre client 'Royal Bio', celui-ci nous permettra de simuler des actions que l’on peut retrouver dans une boutique de vente en ligne.",
+			"Le site web doit permettre la vente de fruits, de légumes et de produits en tout genre BIO proposés par notre client. Les produits ainsi que les données personnelles des clients sont stockées dans une base de données. Le client devra pouvoir se connecter/créer un compte, visiter le catalogue des produits, ajouter un produit au panier et de valider son panier pour accèder au paiement.",
+			"L’entreprise Royal Bio souhaitant re-conceptualiser son site internet pour que celui-ci soit le plus attractif possible afin d’augmenter le nombre de clients inscrits et d’améliorer le nombre de ventes en ligne. De plus, Royal Bio a la volonté et les ressources pour se développer à l’international afin degagner en notoriété et en visibilité. Cheribou cherche à s’introduire et à s’exporter sur les marchés Allemand et Américain. Mais le site internet actuel est désuet et n’est pas adapté à pour une future expansion internationale. Une version anglaise du site devra donc être créée afin de s’adapter au nouveau type de clients. Le nouveau site web devra être adapté pour des enfants, adolescents et jeunes adultes, être simple à parcourir et être sécurisé pour permettre une bonne utilisation du site web et une fidélisation de la clientèle.",
 		],
 		socialSharings: [
 			{
 				id: 1,
 				name: 'Github',
 				icon: 'github',
-				url: 'https://github.com/IUT-Blagnac/sae3-01-devapp-g1b-5',
+				url: 'https://github.com/IUT-Blagnac/sae3-01-devapp-g2b-11',
 			},
 			// ... autres réseaux sociaux
 		],
@@ -159,35 +160,37 @@ const projects = [
 	},
 	{
 		id: 4,
-		title: 'Application web de gestion de la SAE "Koh-Lanta"',
-		category: 'Application Web',
-		img: require('@/assets/images/web-project-1.jpg'),
-		date: 'hiver 2023',
-		tag: 'App de gestion Web / Angular / Symfony',
+		title: 'Application mobile Android pour application de filtres via réalité augmentée',
+		category: 'Application Mobile',
+		img: require('@/assets/images/mobile-project-1.jpg'),
+		date: 'Avril-Juin 2023',
+		tag: 'Application mobile Android',
 		client: {
-			name: 'IUT de Blagnac',
+			name: 'Robert Gordon University',
 			services: 'Developpement d\'applications',
-			website: 'https://www.iut-blagnac.fr/fr/',
-			phone: '05 62 74 75 75',
+			website: 'https://www.rgu.ac.uk/',
+			phone: '+44 (0) 1224 262000',
 		},
-		objectives: "Développement d'une application web de gestion de la SAÉ 5 'Koh-Lanta' avec Symfony (PHP) et Angular (TypeScript). Automatisation des processus de constitution des équipes, saisie des sujets et gestion des évaluations. Projet documenté sur GitHub.",
+		objectives: "Développement d'une application mobile Android utilisant une technologie de réalité augmentée, pour appliquer des filtres sur le visage d’un utilisateur, en temps réel. Projet documenté sur GitHub.",
 		technologies: [
-			'PHP',
-			'Symfony',
-			'Typescript',
-			'Angular',
+			'Java',
+			'Android',
+			'Bazel',
+			'UNIX',
 
 		],
 		challenge: [
-			"Bienvenue dans l’application de gestion dédiée à la SAÉ 'Kho Lanta'. Notre application a été créée dans le but de simplifier et d’automatiser plusieurs aspects clés de la gestion de la SAÉ 5 'Kho Lanta'. Cette initiative vise à rendre le processus de gestion plus efficace en offrant des fonctionnalités automatisées pour la constitution des équipes, la saisie des sujets, la gestion des évaluations, et bien plus encore.",
-			'L’objectif principal de notre application est de fournir une plateforme conviviale et efficace pour les responsables de la SAÉ afin de faciliter la gestion de diverses tâches liées à l’événement "Kho Lanta". Nous nous efforçons de simplifier les processus administratifs, d’améliorer la communication entre les membres et les équipes, et de garantir une expérience fluide tout au long de la SAÉ.',
+			"Amélioration d’une application mobile pouvant apposer des filtres, en réalité augmentée, sur des visages via la caméra frontale d’un téléphone.",
+			"Une fois le filtre posé, l’utilisateur peut alors effectuer une capture d’écran de son téléphone en appuyant sur un bouton, similaire à celui des appareils photo des téléphones modernes.",
+			'Il est possible pour l’utilisateur de faire apparaître et disparaître, l’interface utilisateur composé d’une barre déroulante avec tous les filtres disponibles et du bouton pour effectuer la capture d’écran.',
+			"Effectué durant mon stage professionnelle de seconde année, au sein de la Robert Gordon University, à Aberdeen, en Écosse."
 		],
 		socialSharings: [
 			{
 				id: 1,
 				name: 'Github',
 				icon: 'github',
-				url: 'https://github.com/IUT-Blagnac/sae-5-1-01-phase4-groupe-de-5',
+				url: 'https://github.com/kalzeo/Augmented-Fashion-Android-AR',
 			},
 			// ... autres réseaux sociaux
 		],
@@ -262,11 +265,11 @@ const projects = [
 	},
 	{
 		id: 6,
-		title: 'Application web de gestion d\'une bibliothèque (en cours)',
+		title: 'Application web de gestion d\'une bibliothèque',
 		category: 'Application Web',
 		img: require('@/assets/images/web-project-1.jpg'),
-		date: 'début 2023',
-		tag: 'App de gestion Web / API / Angular Symfony',
+		date: 'Février 2024',
+		tag: 'Application de gestion Web / API / Angular Symfony',
 		client: {
 			name: 'IUT de Blagnac',
 			services: 'Developpement d\'applications',
@@ -278,14 +281,15 @@ const projects = [
 			'Symfony',
 			'EasyAdmin',
 			'Angular',
-			'API Platform'
+			'API Platform',
+			'Adminer'
 		],
 		challenge: [
 			'Le défi consiste à développer une application web de gestion de bibliothèque en utilisant Symfony, EasyAdmin, Angular et une API REST. L\'objectif est d\'administrer les auteurs, les livres, les catégories, ainsi que de gérer les adhérents et leurs emprunts.',
-			'Un Back-Office avec Symfony et EasyAdmin doit être implémenté pour permettre l\'ajout, la modification et la suppression des entités. Il faudra également créer une API REST avec Symfony pour fournir des informations sur les livres, auteurs, emprunts et adhérents.',
+			'Un Back-Office avec Symfony et EasyAdmin doit être implémenté pour permettre l\'ajout, la modification et la suppression des entités. Ces mêmes entités sont liés à des données présentes au sein d\'une base de donées, pour laquelle l\'outil Adminer était utilisé pour faciliter sa gestion. Il faudra également créer une API REST avec Symfony pour fournir des informations sur les livres, auteurs, emprunts et adhérents.',
 			'L\'objectif est de mettre en place un Front-Office avec Angular pour permettre aux internautes et adhérents de rechercher des livres, de réserver des livres et de gérer leur compte adhérent.',
 			'Une partie du challenge consiste en l\'implémentation d\'un formulaire complexe dans EasyAdmin pour gérer les emprunts. Cela permettra à un adhérent de demander l\'emprunt de plusieurs livres, avec des vérifications telles que la disponibilité des livres et la limite d\'emprunt (maximum 5 emprunts en cours par adhérent).',
-			'Il est nécessaire de mettre en place au moins un webservice REST complexe pour gérer la recherche de livres selon des caractéristiques de l\'auteur (période, nationalité, etc.) et/ou la recherche des emprunts associés à un livre donné.',
+			'Il est nécessaire de mettre en place au moins un webservice REST complexe pour gérer la recherche de livres selon certaines caractéristiques (auteur, genre,...) et/ou la recherche des emprunts associés à un livre donné.',
 			'Le respect des cas d\'utilisation détaillés, notamment pour les internautes, les adhérents, les bibliothécaires et les responsables de la bibliothèque, est un élément essentiel du défi.',
 			'L\'implémentation du diagramme de classes minimal est nécessaire pour créer les entités, avec une prévoyance pour les fixtures afin de peupler la base de données.',
 			'Une utilisation efficace de Git est requise pour gérer le code source du projet, en suivant les instructions Git fournies.'
@@ -297,7 +301,7 @@ const projects = [
 				id: 1,
 				name: 'Github',
 				icon: 'github',
-				url: 'https://github.com/AimvenDragtow/SAE6-bibliotheque',
+				url: 'https://github.com/Tilianh/S6.01',
 			},
 			// ... autres réseaux sociaux
 		],
