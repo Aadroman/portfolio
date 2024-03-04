@@ -4,7 +4,7 @@
   export default {
     data() {
         return {
-			skillsHeading: 'L\'évolution de mes compétences au seins de l\'IUT',
+			skillsHeading: 'L\'évolution de mes compétences au sein de l\'IUT',
         }
 
 

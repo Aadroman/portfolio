@@ -65,7 +65,7 @@ const projects = [
 			website: 'https://www.iut-blagnac.fr/fr/',
 			phone: '05 62 74 75 75',
 		},
-		objectives: 'La réforme du BUT a vu exploser le nombre de nos vacataires. Le département informatique souhaite affecter un responsable des vacataires. Il lui faut une interface de gestion de ses vacataires qui soit en lien avec l\'embryon de base existante déjà dans Flop!Edt.',
+		objectives: '',
 		technologies: [
 			'Typescript',
 			'Angular',
@@ -74,8 +74,8 @@ const projects = [
 			'Github',
 		],
 		challenge: [
-			"La gestion des vacataires à l’IUT actuelle laisse à désirer en termes d'efficacité et d'optimisation. Actuellement, elle repose sur des méthodes manuelles, chaque gestion de vacataire étant consignée sur des fiches en papier. Pour remédier à cette situation, Jean-Michel Bruel a entrepris le développement d'une application web dédiée à cette tâche. Cependant, en raison de contraintes de temps, il nous a confié ce projet, fournissant une maquette de base. Notre mission était donc de poursuivre le développement de cette application en apportant des améliorations substantielles.",
-			"Depuis la réforme du BUT, le nombre de vacataires employés par l’IUT a grandement augmenté. A tel point qu’il a été décidé de définir un responsable des vacataires qui aura pour rôle de les affecter et désaffecter. Pour cela, ce responsable a besoin d’une interface web lui permettant de facilement gérer les vacataires mais aussi les différents cours affectables. Cet outil, à l’heure actuelle inexistant, sera créé par des élèves de troisième année de la filière informatique de l’établissement dans le cadre des heures de SAE.",		],
+			"",
+			"",		],
 		socialSharings: [
 			{
 				id: 1,
@@ -125,7 +125,7 @@ const projects = [
 			'SQL',
 		],
 		challenge: [
-			"Ce site web d’E-commerce a été réalisée lors de notre deuxième année de BUT informatique, nous avions pour but de réaliser un site web permettant de vendre les produits de notre client 'Royal Bio', celui-ci nous permettra de simuler des actions que l’on peut retrouver dans une boutique de vente en ligne.",
+			"Ce site web d’E-commerce a été réalisé lors de notre deuxième année de BUT informatique, nous avions pour but de réaliser un site web permettant de vendre les produits de notre client 'Royal Bio', celui-ci nous permettra de simuler des actions que l’on peut retrouver dans une boutique de vente en ligne.",
 			"Le site web doit permettre la vente de fruits, de légumes et de produits en tout genre BIO proposés par notre client. Les produits ainsi que les données personnelles des clients sont stockées dans une base de données. Le client devra pouvoir se connecter/créer un compte, visiter le catalogue des produits, ajouter un produit au panier et de valider son panier pour accèder au paiement.",
 			"L’entreprise Royal Bio souhaitant re-conceptualiser son site internet pour que celui-ci soit le plus attractif possible afin d’augmenter le nombre de clients inscrits et d’améliorer le nombre de ventes en ligne. De plus, Royal Bio a la volonté et les ressources pour se développer à l’international afin degagner en notoriété et en visibilité. Cheribou cherche à s’introduire et à s’exporter sur les marchés Allemand et Américain. Mais le site internet actuel est désuet et n’est pas adapté à pour une future expansion internationale. Une version anglaise du site devra donc être créée afin de s’adapter au nouveau type de clients. Le nouveau site web devra être adapté pour des enfants, adolescents et jeunes adultes, être simple à parcourir et être sécurisé pour permettre une bonne utilisation du site web et une fidélisation de la clientèle.",
 		],
@@ -180,7 +180,7 @@ const projects = [
 		challenge: [
 			"Amélioration d’une application mobile pouvant apposer des filtres, en réalité augmentée, sur des visages via la caméra frontale d’un téléphone.",
 			"Une fois le filtre posé, l’utilisateur peut alors effectuer une capture d’écran de son téléphone en appuyant sur un bouton, similaire à celui des appareils photo des téléphones modernes.",
-			'Il est possible pour l’utilisateur de faire apparaître et disparaître, l’interface utilisateur composé d’une barre déroulante avec tous les filtres disponibles et du bouton pour effectuer la capture d’écran.',
+			'Il est possible pour l’utilisateur de faire apparaître et disparaître, l’interface utilisateur composée d’une barre déroulante avec tous les filtres disponibles et du bouton pour effectuer la capture d’écran.',
 			"Effectué durant mon stage professionnelle de seconde année, au sein de la Robert Gordon University, à Aberdeen, en Écosse."
 		],
 		socialSharings: [
