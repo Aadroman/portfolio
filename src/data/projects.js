@@ -4,7 +4,7 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Application Web IHM pour le DATAZERO2',
+		title: 'Application Web IHM pour le projet DATAZERO2',
 		category: 'Application Web',
 		img: require('@/assets/images/web-project-2.jpg'),
 		date: 'Mars - Juillet 2024',
